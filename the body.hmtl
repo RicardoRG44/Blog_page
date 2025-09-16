@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo">¡blog!</h1>
+    </header><!--permite agrupar links o el logo que sera de la pagina-->
+   
+    <section class="container">
+        <article class="post">
+            <h2>this is my first tittle in this Blog, so I write the rest content in spanish and a little bit in english</h2>
+            <p>descripcion de mi post / description for my post</p>
+            <img src="ing/cafe foto.png" width="300"/>
+            <p>texto del articulo que hay aca y es texto de prueba. </p>
+        </article><!--aqui se pone informacion totalmente independiente, historias de noticias, enmarcaciones de una historia, un tweet, etc, se identifica estos elementos-->
+        <article class="post">
+            <h2>titulo de mi primer post 2</h2>
+            <p>descripcion de mi post 2</p>
+            <img src="ing/girl-studying-at-desk-cartoon-vector.jpg" width="300"/>
+            <p>texto del articulo que hay aca y es texto de prueba parte 2. </p>
+        </article>
+        <article class="post">
+            <h2>ahhh a character anime girl</h2>
+            <p>I dont know why I posted this, but its funny...for me hahah</p>
+            <img src="ing/mona china.pnh.jpg" width="350"/>
+            <p>texto del articulo que hay aca y es texto de prueba parte final. </p>
+        </article>
+    </section><!--secciones de la aplicacion, dentro peude ver etiquetas-->
+
+    <footer>
+        
+        <section>
+            <a href="#titulo"> click here if u want to go to the principal part in this blog</a>
+            <p>  U could contact me in... </p>
+            <a href="mailto: ricolino@hotmail.com">  ricolino@hotmail.com (the account is fake, so no worries to contact me)</a>
+        </section>
+        <p>copyright 2024</p>
+    </footer><!--pie de paginaaqui abra informacion relacionada, generalmente-->
+</body>
+</html>
